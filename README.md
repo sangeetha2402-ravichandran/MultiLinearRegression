@@ -40,16 +40,13 @@ The dataset contains:
 Multiple Linear Regression models the relationship between one dependent variable and two or more independent variables.  
 The mathematical form is:
 
-\[
-\hat{y} = \beta_0 + \beta_1(\text{Interest Rate}) + \beta_2(\text{Employment}) + \epsilon
-\]
+Predicted S&P500 = β₀ + β₁ × (Interest Rate) + β₂ × (Employment) + ε
 
-Where:
-- \(\beta_0\) = Intercept
-- \(\beta_1, \beta_2\) = Coefficients
-- \(\epsilon\) = Error term
-
----
+Where:  
+- **β₀** = Intercept (baseline value when all predictors are 0)  
+- **β₁** = Coefficient for Interest Rate  
+- **β₂** = Coefficient for Employment  
+- **ε** = Error term (difference between predicted and actual value)  
 
 ## 🛠 Model Development
 1. **Data Preprocessing**:
